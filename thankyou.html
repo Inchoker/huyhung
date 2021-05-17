@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Huy Hưng</title>
+        <link rel="stylesheet" href="./styles/normalize.css" />
+        <link rel="stylesheet" href="./styles/styles.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <script
+            src="https://kit.fontawesome.com/e31ef2b53f.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <header>
+            <nav class="nav collapsible">
+                <a aria-label="Huy Hưng" class="nav__brand" href="/"
+                    ><img
+                        class="logo"
+                        src="./images/huyhunglogo.png"
+                        alt="Homepage logo"
+                /></a>
+                <svg class="icon nav__toggler">
+                    <use href="./images/sprite.svg#menu"></use>
+                </svg>
+                <ul class="list nav__list collapsible__content">
+                    <li class="nav__item"><a href="/">Trang chủ</a></li>
+                    <li class="nav__item">
+                        <a href="./index.html#product">Sản phẩm</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="./index.html#price">Giá cả</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="./index.html#contact">Liên hệ</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div id="thanks">
+            <div class="block block__header container">
+                <h1>
+                    Cảm ơn quý khách đã quan tâm tới sản phẩm của chúng tôi!
+                </h1>
+                <h2>
+                    Chúng tôi sẽ liên hệ lại với quý khách trong vòng 5 phút.
+                </h2>
+                <div class="">
+                    <i class="fas fa-check fa-10x tick"></i>
+                </div>
+                <a class="link thank--link" href="./"
+                    >Quay trở lại trang sản phẩm</a
+                >
+            </div>
+            <div class="block block--dark footer block--footer">
+                <div class="grid grid--1x2 container footer__brand">
+                    <div class="footer__logo">
+                        <a href="/">
+                            <img
+                                class="logo"
+                                src="images/huyhunglogo.png"
+                                alt=""
+                        /></a>
+                    </div>
+                    <section class="footer__section">
+                        <p class="footer__copyright">
+                            CÔNG TY TNHH MTV <br />
+                            <big> HUY HƯNG</big>
+                        </p>
+                        <div>
+                            <span style="font-family: gilroy-medium, Inter"
+                                >Email:
+                            </span>
+                            <span style="font-family: gilroy-light, Inter">
+                                huyhung.vietnam@outlook.com</span
+                            >
+                        </div>
+                        <div>
+                            <span style="font-family: gilroy-medium, Inter"
+                                >Phone: </span
+                            ><span style="font-family: gilroy-light, Inter"
+                                >0972322189</span
+                            >
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <script>
+            const collapsibles = document.querySelectorAll(".collapsible");
+            collapsibles.forEach((item) =>
+                item.addEventListener("click", function () {
+                    this.classList.toggle("collapsible--expanded");
+                })
+            );
+        </script>
+    </body>
+</html>

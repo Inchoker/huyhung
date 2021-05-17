@@ -1,0 +1,460 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Huy Hưng</title>
+        <meta
+            name="description"
+            content="Giải pháp số hóa hàng đầu cho ngành điện Việt Nam"
+        />
+        <link rel="icon" type="image/png" href="./images/favicon.ico" />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://huyhung.netlify.app" />
+        <meta property="og:title" content="Huy Hưng" />
+        <meta
+            property="og:image"
+            content="http://huyhung.vn./images/chupAI.jpg"
+        />
+        <meta
+            property="og:description"
+            content="Giải pháp số hóa hàng đầu cho ngành điện Việt Nam"
+        />
+        <meta property="og:site_name" content="Huy Hưng" />
+        <meta property="og:locale" content="en_US" />
+
+        <link rel="stylesheet" href="./styles/normalize.css" />
+        <link rel="stylesheet" href="./styles/styles.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
+    <body>
+        <!-- ? Thanh Nav -->
+        <header>
+            <nav class="nav collapsible">
+                <a aria-label="Huy Hưng" class="nav__brand" href="/"
+                    ><img
+                        class="logo"
+                        src="./images/huyhunglogo.png"
+                        alt="Homepage logo"
+                /></a>
+                <svg class="icon nav__toggler">
+                    <use href="./images/sprite.svg#menu"></use>
+                </svg>
+                <ul class="list nav__list collapsible__content">
+                    <li class="nav__item"><a href="/">Trang chủ</a></li>
+                    <li class="nav__item"><a href="#product">Sản phẩm</a></li>
+                    <li class="nav__item"><a href="#price">Giá cả</a></li>
+                    <li class="nav__item"><a href="#contact">Liên hệ</a></li>
+                </ul>
+            </nav>
+            <div class="nav-bg-image"></div>
+        </header>
+
+        <!-- ? Tiêu đề -->
+        <section class="block hero">
+            <div class="container">
+                <header
+                    class="block__header hero__content"
+                    data-aos="fade-right"
+                >
+                    <h1 class="block__heading">
+                        GIẢI PHÁP
+                        <span style="white-space: nowrap">SỐ HÓA</span>
+                        <span style="white-space: nowrap">ĐIỆN LỰC</span>
+                    </h1>
+                    <p class="hero__tagline">
+                        Công nghệ số hóa và trí tuệ nhân tạo hàng đầu cho ngành
+                        điện.
+                    </p>
+                </header>
+                <!-- <picture data-aos="fade-up">
+                    <img
+                        class="hero__img"
+                        src="./images/hh.sanpham.png"
+                        alt=""
+                    />
+                </picture> -->
+            </div>
+        </section>
+
+        <!-- ? Sản phẩm -->
+        <div id="product">
+            <section class="block block--light">
+                <div class="container">
+                    <header class="block__header">
+                        <h2>SẢN PHẨM</h2>
+                        <h3>MÁY ĐỌC CÔNG TƠ ĐIỆN TỰ ĐỘNG MTH2</h3>
+                    </header>
+                    <article class="grid grid--1x2 feature">
+                        <div class="feature__content" data-aos="fade-right">
+                            <h4 class="feature__heading">
+                                Tự động đọc số điện bằng công nghệ AI
+                            </h4>
+                            <p>
+                                Công nghệ AI 4.0 mới nhất cho phép tự đọc số
+                                điện và hiển thị trên app chỉ sau 0,5 giây, với
+                                tỷ lệ chính xác trên 90%.
+                            </p>
+                            <p>
+                                Dữ liệu ảnh chụp sẽ được tự động gửi về hệ thống
+                                để phục vụ cho học máy. Vì thế, tỷ lệ chính xác
+                                sẽ ngày càng được cải thiện theo thời gian sử
+                                dụng.
+                            </p>
+                        </div>
+                        <picture data-aos="zoom-in-left">
+                            <img
+                                class="feature__image"
+                                src="./images/chupAI.jpg"
+                                alt=""
+                            />
+                        </picture>
+                    </article>
+                    <article class="grid grid--1x2 feature">
+                        <div class="feature__content" data-aos="fade-right">
+                            <h4 class="feature__heading">
+                                Chụp ảnh siêu rõ nét
+                            </h4>
+                            <p>
+                                Gồm camera 5mp và cặp đèn led sáng trắng, mang
+                                đến chất lượng ảnh siêu rõ nét trong bất kỳ điều
+                                kiện ánh sáng nào.
+                            </p>
+                        </div>
+                        <picture data-aos="zoom-in-left">
+                            <img
+                                class="feature__image"
+                                src="./images/anhronet.png"
+                                alt=""
+                            />
+                        </picture>
+                    </article>
+                    <article class="grid grid--1x2 feature">
+                        <div class="feature__content" data-aos="fade-right">
+                            <h4 class="feature__heading">
+                                Khung cố định góc chụp
+                            </h4>
+                            <p>
+                                Khung cố định góc chụp giúp camera chụp rõ nét
+                                nhất, hỗ trợ trong việc nhận dạng số được chính
+                                xác.
+                            </p>
+                            <p>
+                                Khớp nối giúp chỉnh góc xoay của thiết bị linh
+                                hoạt trong các trường hợp chéo góc.
+                            </p>
+                        </div>
+                        <picture data-aos="zoom-in-left">
+                            <img
+                                class="feature__image"
+                                src="./images/khungcoding.jpg"
+                                alt=""
+                            />
+                        </picture>
+                    </article>
+                    <article class="grid grid--1x2 feature">
+                        <div class="feature__content" data-aos="fade-right">
+                            <h4 class="feature__heading">
+                                Cán cầm gọn nhẹ & linh hoạt
+                            </h4>
+                            <p>
+                                Kéo dài/thu gọn tầm với của thiết bị bằng cách
+                                xoay đẩy phần nhám lên xuống.
+                            </p>
+                            <p>
+                                Chiều dài tối đa: 274cm.<br />
+                                Chiều dài tối thiểu: 206cm.
+                            </p>
+                        </div>
+                        <picture data-aos="zoom-in-left">
+                            <img
+                                class="feature__image"
+                                src="./images/CanCam.png"
+                                alt=""
+                                style="object-fit: contain"
+                            />
+                        </picture>
+                    </article>
+                    <article class="grid grid--1x2 feature">
+                        <div class="feature__content" data-aos="fade-right">
+                            <h4 class="feature__heading">
+                                Thời gian sử dụng lâu dài
+                            </h4>
+                            <p>
+                                Pin dự phòng 10000mAh cho phép sử dụng thiết bị
+                                trong 3 giờ liên tục với đèn led hoặc trong 6
+                                giờ khi không sử dụng đèn led.
+                            </p>
+                        </div>
+                        <picture data-aos="zoom-in-left">
+                            <img
+                                class="feature__image"
+                                src="./images/Pin.png"
+                                alt=""
+                            />
+                        </picture>
+                    </article>
+                    <a
+                        rel="noopener"
+                        href="https://drive.google.com/file/d/16xH0eiRKTlOOlN3SHiGxitwS5d59ztRY/view?fbclid=IwAR18J7JNYQnk74YD-83z3_zLvbKN99SYmgcBvTbwRiF4nY9cBdUu98uXksg"
+                        class="link-arrow"
+                        target="_blank"
+                        >Mô tả kỹ thuật và hướng dẫn sử dụng sản phẩm</a
+                    >
+                </div>
+            </section>
+
+            <section class="block block--dark block-showcase">
+                <header class="block__header">
+                    <h2>
+                        Kết Nối Với
+                        <span style="white-space: nowrap">Ứng Dụng</span>
+                    </h2>
+                </header>
+                <article class="grid grid--1x2 container showcase">
+                    <picture class="showcase__image" data-aos="fade-right">
+                        <img src="./images/ManHinhApp.png" alt="" />
+                    </picture>
+                    <ul class="list showcase__content" data-aos="fade-up">
+                        <li class="media">
+                            <div class="media__image">
+                                <svg class="icon icon--white">
+                                    <use
+                                        href="./images/sprite.svg#computer"
+                                    ></use>
+                                </svg>
+                            </div>
+                            <div class="media__body">
+                                <h3 class="media__title">
+                                    Dễ tích hợp trên các ứng dụng máy tính bảng
+                                </h3>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <div class="media__image">
+                                <svg class="icon icon--white">
+                                    <use
+                                        href="./images/sprite.svg#growth"
+                                    ></use>
+                                </svg>
+                            </div>
+                            <div class="media__body">
+                                <h3 class="media__title">
+                                    Kết nối đơn giản qua Wifi của sản phẩm
+                                </h3>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <div class="media__image">
+                                <svg class="icon icon--white">
+                                    <use href="./images/sprite.svg#easy"></use>
+                                </svg>
+                            </div>
+                            <div class="media__body">
+                                <h3 class="media__title">
+                                    Chỉ số xuất hiện trên máy sau khi thực hiện
+                                    thao tác lấy ảnh
+                                </h3>
+                            </div>
+                        </li>
+                    </ul>
+                </article>
+            </section>
+        </div>
+
+        <!-- ? Giá cả -->
+        <div id="price">
+            <section class="block block--light block-plan">
+                <div class="container">
+                    <h2 class="block__header">GIÁ CẢ</h2>
+                    <div class="grid grid--1x2" data-aos="fade-up">
+                        <div class="plan plan--popular">
+                            <div class="card card--primary">
+                                <header class="card__header">
+                                    <h3 class="plan__name">MTH2-Max</h3>
+                                    <span class="plan__price">8.500.000</span>
+                                    <span class="plan__billing-cycle">
+                                        <small>VND</small>
+                                    </span>
+                                    <span class="plan__description"
+                                        >Giá trị cao nhất</span
+                                    >
+                                </header>
+                                <div class="card__body">
+                                    <img src="./images/hh.sanpham.png" alt="" />
+                                    <ul class="list list--tick">
+                                        <li class="list__item">
+                                            Chụp ảnh sắc nét
+                                        </li>
+                                        <li class="list__item">
+                                            Đọc số điện tự động với AI
+                                        </li>
+                                    </ul>
+                                    <button
+                                        onclick="buyPrimaryItem()"
+                                        class="btn btn--outline btn--block"
+                                    >
+                                        Mua ngay
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="plan">
+                            <div class="card card--secondary">
+                                <header class="card__header">
+                                    <h3 class="plan__name">MTH2</h3>
+                                    <span class="plan__price">8.000.000</span>
+                                    <span class="plan__billing-cycle"
+                                        ><small>VND</small></span
+                                    >
+                                    <!-- <span
+                                    class="badge badge--secondary badge--small"
+                                    >10% OFF</span
+                                > -->
+                                    <span class="plan__description"
+                                        >Tiết kiệm</span
+                                    >
+                                </header>
+                                <div class="card__body">
+                                    <img src="./images/hh.sanpham.png" alt="" />
+                                    <ul class="list list--tick">
+                                        <li class="list__item">
+                                            Chụp ảnh sắc nét
+                                        </li>
+                                    </ul>
+                                    <button
+                                        onclick="buySecondaryItem()"
+                                        class="btn btn--outline btn--block"
+                                    >
+                                        Mua ngay
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- ? Liên hệ -->
+        <div id="contact">
+            <footer class="block block--dark footer">
+                <h2 class="block__header">LIÊN HỆ</h2>
+                <div class="container grid footer__sections">
+                    <section class="footer__section">
+                        <form
+                            action="./thankyou.html"
+                            name="Lời nhắn"
+                            method="POST"
+                            id="orderForm"
+                        >
+                            <fieldset>
+                                <input
+                                    placeholder="Tên *"
+                                    type="text"
+                                    id="nameField"
+                                    name="name"
+                                    required
+                                />
+                                <input
+                                    placeholder="Email"
+                                    id="emailField"
+                                    type="email"
+                                    name="email"
+                                />
+                                <input
+                                    placeholder="SĐT *"
+                                    id="phoneField"
+                                    type="phone"
+                                    name="phone"
+                                    required
+                                />
+                                <textarea
+                                    placeholder="Lời nhắn …"
+                                    id="commentField"
+                                    name="message"
+                                ></textarea>
+                                <input
+                                    class="button-primary"
+                                    type="submit"
+                                    id="submitMessageButton"
+                                    value="Gửi"
+                                />
+                            </fieldset>
+                        </form>
+                    </section>
+
+                    <div class="footer__brand">
+                        <img
+                            class="logo"
+                            src="./images/huyhunglogo.png"
+                            alt=""
+                        />
+                        <p class="footer__copyright">
+                            CÔNG TY TNHH MTV <br />
+                            <big> HUY HƯNG</big>
+                        </p>
+                        <section class="footer__section">
+                            <div>
+                                <div>
+                                    <span
+                                        style="
+                                            font-family: gilroy-medium,
+                                                sans-serif;
+                                        "
+                                        >Email:
+                                    </span>
+                                    <span
+                                        style="
+                                            font-family: gilroy-light,
+                                                sans-serif;
+                                        "
+                                    >
+                                        huyhung.vietnam@outlook.com</span
+                                    >
+                                </div>
+                                <div>
+                                    <span
+                                        style="
+                                            font-family: gilroy-medium,
+                                                sans-serif;
+                                        "
+                                        >Phone: </span
+                                    ><span
+                                        style="
+                                            font-family: gilroy-light,
+                                                sans-serif;
+                                        "
+                                        >0972322189</span
+                                    >
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <script
+            type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"
+        ></script>
+        <script type="text/javascript">
+            (function () {
+                emailjs.init("user_mhyKSVx85Hwxw6SfuD70z");
+            })();
+        </script>
+        <script src="./index.js"></script>
+    </body>
+</html>
